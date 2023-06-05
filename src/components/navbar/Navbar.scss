@@ -7,6 +7,10 @@
   height: 10rem;
   background-color: white;
 
+  @include respond(phone) {
+    display: none;
+  }
+
   ul {
     display: flex;
     align-items: center;
