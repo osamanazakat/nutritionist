@@ -9,6 +9,9 @@ import Food from "./food.svg";
 import Fruit from "./fruit.svg";
 import Plan from "./plan.svg";
 import Girl from "./girl.jpg";
+import Plate from "./plate.png";
+import ThirdLayer from "./layer-3.svg";
+import Lea from "./lea.png";
 
 export {
   Girl,
@@ -22,4 +25,7 @@ export {
   SecondLayer,
   Fruit,
   Plan,
+  Plate,
+  ThirdLayer,
+  Lea,
 };
