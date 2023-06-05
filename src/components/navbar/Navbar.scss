@@ -1,0 +1,49 @@
+@import "../../styles/mixin.scss";
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10rem;
+  background-color: white;
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  &__link {
+    font-size: 2rem;
+    color: var(--neutral-800);
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: var(--primary-1);
+    }
+  }
+
+  &__cart {
+    cursor: pointer;
+    position: relative;
+    &:hover {
+      opacity: 80%;
+    }
+
+    div {
+      left: -10%;
+      top: 60%;
+      position: absolute;
+      background-color: var(--neutral-800);
+      color: white;
+      border-radius: 50%;
+      display: grid;
+      place-content: center;
+
+      span {
+        font-size: 1.3rem;
+        padding: 0.1rem 0.6rem;
+      }
+    }
+  }
+}

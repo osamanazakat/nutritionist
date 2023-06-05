@@ -1,0 +1,82 @@
+@import "./styles/mixin.scss";
+
+:root {
+  --primary-1: #95d477;
+  --primary-2: #ffb077;
+
+  --secondary: #fffaf6;
+
+  --neutral-800: #191a17;
+  --neutral-700: #353731;
+  --neutral-600: #5e6159;
+  --neutral-500: #8f9488;
+  --neutral-400: #dee7dc;
+  --neutral-300: #eff4ed;
+  --neutral-200: #f5fbf4;
+  --neutral-100: #ffffff;
+
+  --blue-400: #086cd9;
+  --blue-300: #1d88fe;
+  --blue-200: #8fc3ff;
+  --blue-100: #eaf4ff;
+
+  --green-400: #11845b;
+  --green-300: #05c168;
+  --green-200: #7fdca4;
+  --green-100: #def2e6;
+
+  --red-400: #dc2b2b;
+  --red-300: #ff5a65;
+  --red-200: #ffbec2;
+  --red-100: #ffeff0;
+
+  --orange-400: #d5691b;
+  --orange-300: #ff9e2c;
+  --orange-200: #ffd19b;
+  --orange-100: #fff3e4;
+}
+
+html {
+  // This defines what 1rem is
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%;
+
+  @include respond(tab-port) {
+    font-size: 56.25%; // 1rem = 9px, 10px/16px = 56.25%;
+  }
+
+  @include respond(phone) {
+    font-size: 50%; // 1rem = 8px, 10px/16px = 50%;
+  }
+
+  @include respond(desktop) {
+    font-size: 75%; // 1rem = 12px, 10px/16px = 75%;
+  }
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+}
+
+button {
+  display: inline-block;
+  outline: none;
+  border: none;
+  background: none;
+}
