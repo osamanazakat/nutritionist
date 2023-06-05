@@ -6,5 +6,20 @@ import SecondLayer from "./layer-2.svg";
 import Check from "./check.svg";
 import Weight from "./weight.svg";
 import Food from "./food.svg";
+import Fruit from "./fruit.svg";
+import Plan from "./plan.svg";
+import Girl from "./girl.jpg";
 
-export { Logo, Cart, Layer, Hero, Check, Food, Weight, SecondLayer };
+export {
+  Girl,
+  Logo,
+  Cart,
+  Layer,
+  Hero,
+  Check,
+  Food,
+  Weight,
+  SecondLayer,
+  Fruit,
+  Plan,
+};
