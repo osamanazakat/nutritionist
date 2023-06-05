@@ -85,3 +85,13 @@ button {
 p {
   font-size: 1.9rem;
 }
+
+h2 {
+  font-size: 5rem;
+  color: var(--neutral-800);
+  font-weight: 500;
+
+  @include respond(phone) {
+    font-size: 4rem;
+  }
+}
