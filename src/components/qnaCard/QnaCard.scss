@@ -1,0 +1,63 @@
+@import "../../styles/mixin.scss";
+
+.qnaCard {
+  padding: 4rem 6rem;
+  display: flex;
+  cursor: pointer;
+  box-shadow: 0 2px 14px 0 rgba(20, 20, 43, 0.04);
+  border: 1.5px solid var(--neutral-300);
+  transition: all 0.3s ease;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  @include respond(tab-port) {
+    padding: 3rem 2rem;
+  }
+
+  &:hover {
+    transform: scale(98%);
+  }
+
+  h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--neutral-800);
+    margin-bottom: 1.3rem;
+  }
+
+  p {
+    display: none;
+  }
+
+  .qnaCard__icon {
+    margin-top: -1rem;
+    padding: 1rem;
+    display: grid;
+    place-content: center;
+    box-shadow: 0 2px 14px 0 rgba(20, 20, 43, 0.04);
+    border: 1px solid var(--neutral-300);
+    svg {
+      font-size: 2.7rem;
+      color: var(--neutral-800);
+    }
+  }
+}
+
+.answer-display {
+  display: block !important;
+}
+
+.card-shadow {
+  border-color: rgb(222, 231, 220);
+
+  .qnaCard__icon {
+    background-color: var(--primary-1);
+    transition: all 0.5s ease;
+
+    svg {
+      color: white;
+      transform: rotate(45deg);
+      transition: all 0.5s ease;
+    }
+  }
+}

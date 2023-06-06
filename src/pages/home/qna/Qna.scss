@@ -1,0 +1,35 @@
+@import "../../../styles/mixin.scss";
+
+.qna {
+  padding-block: 15rem;
+
+  &__text {
+    text-align: center;
+    width: 70%;
+    margin-inline: auto;
+    margin-bottom: 6rem;
+
+    @include respond(tab-port) {
+      width: 85%;
+    }
+
+    @include respond(phone) {
+      width: 100%;
+    }
+
+    h2 {
+      margin-block: 1rem 2rem;
+    }
+
+    img {
+      width: fit-content;
+      margin-inline: auto;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+}

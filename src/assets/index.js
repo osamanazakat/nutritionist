@@ -11,9 +11,13 @@ import Plan from "./plan.svg";
 import Girl from "./girl.jpg";
 import Plate from "./plate.png";
 import ThirdLayer from "./layer-3.svg";
+import FourthLayer from "./layer-4.svg";
 import Lea from "./lea.png";
 import Thumbnail from "./thumbnail.jpg";
 import Video from "./video.svg";
+import Image1 from "./image-1.jpg";
+import Image2 from "./image-2.jpg";
+import Image3 from "./image-3.jpg";
 
 export {
   Girl,
@@ -32,4 +36,8 @@ export {
   Lea,
   Thumbnail,
   Video,
+  Image1,
+  Image2,
+  Image3,
+  FourthLayer,
 };

@@ -8,7 +8,7 @@ const VideoSection = () => {
       <div className="video__bg"></div>
       <Wrapper>
         <img src={SecondLayer} alt="" className="layer" />
-        <h2>What makes me an expert in nutrition</h2>
+        <h2 className="heading">What makes me an expert in nutrition</h2>
         <div className="video__section">
           <iframe
             width="100%"
