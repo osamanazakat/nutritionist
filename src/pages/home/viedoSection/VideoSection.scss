@@ -1,0 +1,93 @@
+@import "../../../styles/mixin.scss";
+
+.video {
+  padding-block: 8rem 15rem;
+  position: relative;
+
+  &__flex {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5rem;
+
+    @include respond(tab-port) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include respond(phone) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__card {
+    text-align: center;
+    padding: 5rem 3.5rem;
+    background-color: white;
+    box-shadow: 0 2px 14px 0 rgba(20, 20, 43, 0.04);
+
+    p {
+      font-size: 2.5rem;
+      color: var(--neutral-700);
+      font-weight: 500;
+    }
+  }
+
+  .green {
+    color: var(--primary-1);
+  }
+
+  .red {
+    color: var(--primary-2);
+  }
+
+  &__bg {
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    background-color: var(--neutral-200);
+    z-index: -1;
+    bottom: -15%;
+  }
+
+  &__section {
+    position: relative;
+
+    @include respond(tab-port) {
+      iframe {
+        height: 400px;
+      }
+    }
+    @include respond(phone) {
+      iframe {
+        height: 250px;
+      }
+    }
+  }
+
+  &__img-1 {
+    position: absolute;
+    width: 100%;
+    top: 0;
+  }
+
+  h2 {
+    text-align: center;
+    width: 65%;
+    margin-inline: auto;
+    margin-block: 1rem 6rem;
+
+    @include respond(tab-port) {
+      width: 75%;
+    }
+    @include respond(phone) {
+      width: 100%;
+    }
+  }
+
+  img {
+    width: fit-content;
+    margin-inline: auto;
+  }
+}

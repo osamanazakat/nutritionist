@@ -12,6 +12,8 @@ import Girl from "./girl.jpg";
 import Plate from "./plate.png";
 import ThirdLayer from "./layer-3.svg";
 import Lea from "./lea.png";
+import Thumbnail from "./thumbnail.jpg";
+import Video from "./video.svg";
 
 export {
   Girl,
@@ -28,4 +30,6 @@ export {
   Plate,
   ThirdLayer,
   Lea,
+  Thumbnail,
+  Video,
 };
