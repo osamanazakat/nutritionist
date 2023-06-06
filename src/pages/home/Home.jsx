@@ -5,6 +5,7 @@ import PlateSection from "./plateSection/PlateSection";
 import VideoSection from "./viedoSection/VideoSection";
 import Testimonials from "./testimonials/Testimonials";
 import Qna from "./qna/Qna";
+import InstaSection from "./instaSection/InstaSection";
 
 const Home = () => (
   <>
@@ -15,6 +16,7 @@ const Home = () => (
     <PlateSection />
     <Testimonials />
     <Qna />
+    <InstaSection />
   </>
 );
 

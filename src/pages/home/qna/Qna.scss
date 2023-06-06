@@ -32,4 +32,10 @@
     flex-direction: column;
     gap: 2.5rem;
   }
+
+  .btn {
+    width: fit-content;
+    margin-inline: auto;
+    margin-top: 5rem;
+  }
 }

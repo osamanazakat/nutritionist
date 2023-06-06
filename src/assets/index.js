@@ -18,6 +18,11 @@ import Video from "./video.svg";
 import Image1 from "./image-1.jpg";
 import Image2 from "./image-2.jpg";
 import Image3 from "./image-3.jpg";
+import Insta1 from "./insta-1.jpg";
+import Insta2 from "./insta-2.jpg";
+import Insta3 from "./insta-3.jpg";
+import Insta4 from "./insta-4.jpg";
+import Insta5 from "./insta-5.jpg";
 
 export {
   Girl,
@@ -40,4 +45,9 @@ export {
   Image2,
   Image3,
   FourthLayer,
+  Insta1,
+  Insta2,
+  Insta3,
+  Insta4,
+  Insta5,
 };

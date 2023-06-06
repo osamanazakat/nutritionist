@@ -2,6 +2,7 @@ import "./Qna.scss";
 import QnaCard from "../../../components/qnaCard/QnaCard";
 import Wrapper from "../../../components/wrapper/Wrapper";
 import { FourthLayer } from "../../../assets";
+import Button from "../../../components/button/Button";
 
 const data = [
   {
@@ -48,6 +49,10 @@ const Qna = () => {
           {data.map(({ question, answer, id }) => (
             <QnaCard question={question} answer={answer} key={id} />
           ))}
+        </div>
+
+        <div className="btn">
+          <Button className="btn-black">Browse plans</Button>
         </div>
       </Wrapper>
     </section>
