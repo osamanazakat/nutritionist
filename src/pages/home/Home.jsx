@@ -6,6 +6,7 @@ import VideoSection from "./viedoSection/VideoSection";
 import Testimonials from "./testimonials/Testimonials";
 import Qna from "./qna/Qna";
 import InstaSection from "./instaSection/InstaSection";
+import BlogSection from "./blogSection/BlogSection";
 
 const Home = () => (
   <>
@@ -17,6 +18,7 @@ const Home = () => (
     <Testimonials />
     <Qna />
     <InstaSection />
+    <BlogSection />
   </>
 );
 

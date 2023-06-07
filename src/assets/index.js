@@ -23,6 +23,7 @@ import Insta2 from "./insta-2.jpg";
 import Insta3 from "./insta-3.jpg";
 import Insta4 from "./insta-4.jpg";
 import Insta5 from "./insta-5.jpg";
+import Blog from "./blog.jpg";
 
 export {
   Girl,
@@ -50,4 +51,5 @@ export {
   Insta3,
   Insta4,
   Insta5,
+  Blog,
 };
