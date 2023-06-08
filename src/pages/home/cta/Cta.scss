@@ -1,0 +1,53 @@
+@import "../../../styles/mixin.scss";
+
+.cta {
+  padding-block: 9rem;
+  background-color: var(--primary-1);
+  position: relative;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include respond(phone) {
+      flex-direction: column;
+    }
+  }
+
+  h2 {
+    width: 50%;
+
+    @include respond(phone) {
+      width: 90%;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  img {
+    position: absolute;
+  }
+
+  &__img-1 {
+    top: 10%;
+    left: 0;
+  }
+  &__img-2 {
+    bottom: 10%;
+    right: 0;
+  }
+  &__img-3 {
+    bottom: 14%;
+    left: 20%;
+  }
+  &__img-4 {
+    top: 20%;
+    right: 20%;
+  }
+}

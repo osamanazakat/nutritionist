@@ -7,6 +7,7 @@ import Testimonials from "./testimonials/Testimonials";
 import Qna from "./qna/Qna";
 import InstaSection from "./instaSection/InstaSection";
 import BlogSection from "./blogSection/BlogSection";
+import Cta from "./cta/Cta";
 
 const Home = () => (
   <>
@@ -19,6 +20,7 @@ const Home = () => (
     <Qna />
     <InstaSection />
     <BlogSection />
+    <Cta />
   </>
 );
 

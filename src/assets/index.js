@@ -24,6 +24,7 @@ import Insta3 from "./insta-3.jpg";
 import Insta4 from "./insta-4.jpg";
 import Insta5 from "./insta-5.jpg";
 import Blog from "./blog.jpg";
+import LayerCta from "./layer-cta.svg";
 
 export {
   Girl,
@@ -52,4 +53,5 @@ export {
   Insta4,
   Insta5,
   Blog,
+  LayerCta,
 };
